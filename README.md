@@ -1,2 +1,2 @@
 # SPICED
-[NeurIPS2025] SPICED:ASynapticHomeostasis-Inspired FrameworkforUnsupervisedContinualEEG Decoding
+[NeurIPS 2025] SPICED:ASynapticHomeostasis-Inspired FrameworkforUnsupervisedContinualEEG Decoding
