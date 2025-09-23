@@ -7,15 +7,15 @@ _A Synaptic Homeostasis-Inspired Framework for Unsupervised Continual EEG Decodi
 🔥 NEWS: This paper has been accepted by NeurIPS 2025
 
 ## 🔍 About
-We propose **SPICED**, a novel framework that abstracts and simplifies complex biological neural mechanisms into a computationally feasible continual learning approach, and apply it to continuous brain decoding tasks. [Arxiv](https://arxiv.org/pdf/2509.17439))
+We propose **SPICED**, a novel framework that abstracts and simplifies complex biological neural mechanisms into a computationally feasible continual learning approach, and apply it to continuous brain decoding tasks. ([Arxiv](https://arxiv.org/pdf/2509.17439))
 <div align="left">
 <img src="utils/intro.png" style="width:100%;" />
 </div>
 
 ## 🚢 Process
-SPICED comprises a novel synaptic network that enables dynamic expansion during continual adaptation through three bio-inspired neural mechanisms: (1) critical memory reactivation, which mimics brain functional specificity, selectively activates task-relevant memories to facilitate adaptation; (2) synaptic consolidation, which strengthens these reactivated critical memory traces and enhances their replay prioritizations for further adaptations and (3) synaptic renormalization, which are periodically triggered to weaken global memory traces to preserve learning capacities. The overview of SPICED as follows:
+SPICED comprises a novel synaptic network that enables dynamic expansion during continual adaptation through three bio-inspired neural mechanisms: (1) critical memory reactivation, which mimics brain functional specificity, selectively activates task-relevant memories to facilitate adaptation; (2) synaptic consolidation, which strengthens these reactivated critical memory traces and enhances their replay prioritizations for further adaptations and (3) synaptic renormalization, which are periodically triggered to weaken global memory traces to preserve learning capacities. The overview of SPICED as follows:
 <div align="center">
-<img src="figure/SPICED.png" style="width:100%;" />
+<img src="utils/SPICED.png" style="width:100%;" />
 </div>
 
 ## 🚀 Start
