@@ -19,14 +19,14 @@ SPICED comprises a novel synaptic network that enables dynamic expansion during 
 </div>
 
 ## 🚀 Start
-Step1: Pretrain the source model (Here, any EEG decoding model can be chosen):
+**Step1:** Pretrain the source model. PS: Any EEG decoding model can be chosen, e.g., EEGNet, EEGConformer
 ```python
 parser.add_argument('--is_pretrain', type=bool, default=True, help='pretraining')
 ```
 
-Step2: To facilitate computing, we compute the initial features for all individuals (utils/calculate_propotype.py). Regarding the selection of initial features, different feature extraction schemes can be designed according to specific tasks. We only provide a preliminary extraction approach.
+**Step2:** To facilitate computing, we compute the initial features for all individuals (utils/calculate_propotype.py). Regarding the selection of initial features, different feature extraction schemes can be designed according to specific tasks. We only provide a preliminary extraction approach.
 
-Step3: Initialize the synaptic network and begain continual decoding
+**Step3:** Initialize the synaptic network and begain continual decoding
 
 
 
