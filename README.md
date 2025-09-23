@@ -25,7 +25,7 @@ SPICED comprises a novel synaptic network that enables dynamic expansion during 
 parser.add_argument('--is_pretrain', type=bool, default=True, help='pretraining')
 ```
 
-**Step2:** To facilitate computing, we compute the initial features for all individuals (utils/calculate_propotype.py). Regarding the selection of initial features, different feature extraction schemes can be designed according to specific tasks. We only provide a preliminary extraction approach as described in the paper.
+**Step2:** To facilitate computing, we compute the initial features for all individuals before continual learning(utils/calculate_propotype.py). Regarding the selection of initial features, different feature extraction schemes can be designed according to specific tasks. We only provide a preliminary extraction approach as described in the paper.
 
 **Step3:** Initialize the synaptic network and begin continual decoding.
 
