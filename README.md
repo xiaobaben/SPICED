@@ -33,3 +33,13 @@ parser.add_argument('--is_pretrain', type=bool, default=True, help='pretraining'
 parser.add_argument('--is_pretrain', type=bool, default=False, help='pretraining')
 ```
 
+## 🔗 Citation
+If you're using this repository in your research or applications, please cite using the following BibTeX:
+```bibtex
+@article{zhou2025spiced,
+  title={SPICED: A Synaptic Homeostasis-Inspired Framework for Unsupervised Continual EEG Decoding},
+  author={Zhou, Yangxuan and Zhao, Sha and Wang, Jiquan and Jiang, Haiteng and Li, Shijian and Li, Tao and Pan, Gang},
+  journal={arXiv preprint arXiv:2509.17439},
+  year={2025}
+}
+```
